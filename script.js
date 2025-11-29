@@ -1,177 +1,177 @@
-// Estructura de datos simplificada - una colección con 10 mazos
+// Estructura de datos con mazos de Blue Lock
 const datosApp = {
     coleccion: {
         id: 1,
-        nombre: "Vocabulario Básico",
+        nombre: "Vocabulario Blue Lock",
         mazos: [
             {
                 id: 1,
-                nombre: "Saludos Comunes",
-                imagen: "https://images.unsplash.com/photo-1516487106395-f3d756daf54c?w=150&h=150&fit=crop&crop=center",
+                nombre: "Introducción a Blue Lock",
+                imagen: "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=150&h=150&fit=crop&crop=center",
                 palabras: [
-                    { portugues: "Olá", espanol: "Hola", pronunciacion: "Óla" },
-                    { portugues: "Bom dia", espanol: "Buenos días", pronunciacion: "Bom día" },
-                    { portugues: "Boa tarde", espanol: "Buenas tardes", pronunciacion: "Boa tarde" },
-                    { portugues: "Boa noite", espanol: "Buenas noches", pronunciacion: "Boa noite" },
-                    { portugues: "Como está?", espanol: "¿Cómo estás?", pronunciacion: "Cómo está?" },
-                    { portugues: "Tudo bem?", espanol: "¿Todo bien?", pronunciacion: "Tudo bem?" },
-                    { portugues: "Obrigado/a", espanol: "Gracias", pronunciacion: "Obrigado/a" },
-                    { portugues: "De nada", espanol: "De nada", pronunciacion: "De nada" },
-                    { portugues: "Por favor", espanol: "Por favor", pronunciacion: "Por favor" },
-                    { portugues: "Desculpe", espanol: "Disculpe", pronunciacion: "Desculpe" }
+                    { portugues: "Após", espanol: "Después", pronunciacion: "Após" },
+                    { portugues: "Amistoso", espanol: "Amistoso", pronunciacion: "Amistoso" },
+                    { portugues: "Contra", espanol: "Contra", pronunciacion: "Contra" },
+                    { portugues: "Seleção", espanol: "Selección", pronunciacion: "Seleção" },
+                    { portugues: "Japonesa", espanol: "Japonesa", pronunciacion: "Japonesa" },
+                    { portugues: "Sub-20", espanol: "Sub-20", pronunciacion: "Sub-20" },
+                    { portugues: "Blue", espanol: "Azul", pronunciacion: "Blue" },
+                    { portugues: "Lock", espanol: "Cerradura", pronunciacion: "Lock" },
+                    { portugues: "Entra", espanol: "Entra", pronunciacion: "Entra" },
+                    { portugues: "Nova", espanol: "Nueva", pronunciacion: "Nova" }
                 ]
             },
             {
                 id: 2,
-                nombre: "Presentaciones",
-                imagen: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=center",
+                nombre: "Liga Neo Egoísta",
+                imagen: "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?w=150&h=150&fit=crop&crop=center",
                 palabras: [
-                    { portugues: "Meu nome é", espanol: "Mi nombre es", pronunciacion: "Meu nome é" },
-                    { portugues: "Prazer em conhecê-lo", espanol: "Encantado de conocerte", pronunciacion: "Prazer em conocê-lo" },
-                    { portugues: "De onde você é?", espanol: "¿De dónde eres?", pronunciacion: "De onde você é?" },
-                    { portugues: "Eu sou de", espanol: "Yo soy de", pronunciacion: "Eu sou de" },
-                    { portugues: "Quantos anos você tem?", espanol: "¿Cuántos años tienes?", pronunciacion: "Quantos anos você tem?" },
-                    { portugues: "Eu tenho ... anos", espanol: "Tengo ... años", pronunciacion: "Eu tenho ... anos" },
-                    { portugues: "O que você faz?", espanol: "¿A qué te dedicas?", pronunciacion: "O que você faz?" },
-                    { portugues: "Eu sou estudante", espanol: "Soy estudiante", pronunciacion: "Eu sou estudante" },
-                    { portugues: "Eu trabalho como", espanol: "Trabajo como", pronunciacion: "Eu trabalho como" },
-                    { portugues: "Adeus", espanol: "Adiós", pronunciacion: "Adeus" }
+                    { portugues: "É", espanol: "Es", pronunciacion: "É" },
+                    { portugues: "Início", espanol: "Inicio", pronunciacion: "Início" },
+                    { portugues: "Liga", espanol: "Liga", pronunciacion: "Liga" },
+                    { portugues: "Neo", espanol: "Neo", pronunciacion: "Neo" },
+                    { portugues: "Egoísta", espanol: "Egoísta", pronunciacion: "Egoísta" },
+                    { portugues: "Cinco", espanol: "Cinco", pronunciacion: "Cinco" },
+                    { portugues: "Times", espanol: "Equipos", pronunciacion: "Times" },
+                    { portugues: "Elite", espanol: "Élite", pronunciacion: "Elite" },
+                    { portugues: "Europa", espanol: "Europa", pronunciacion: "Europa" },
+                    { portugues: "Portas", espanol: "Puertas", pronunciacion: "Portas" }
                 ]
             },
             {
                 id: 3,
-                nombre: "Números Básicos",
-                imagen: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=150&h=150&fit=crop&crop=center",
+                nombre: "Atacantes y Proyecto",
+                imagen: "https://images.unsplash.com/photo-1529900748604-07564a03e7a6?w=150&h=150&fit=crop&crop=center",
                 palabras: [
-                    { portugues: "Um", espanol: "Uno", pronunciacion: "Um" },
-                    { portugues: "Dois", espanol: "Dos", pronunciacion: "Dois" },
-                    { portugues: "Três", espanol: "Tres", pronunciacion: "Três" },
-                    { portugues: "Quatro", espanol: "Cuatro", pronunciacion: "Quatro" },
-                    { portugues: "Cinco", espanol: "Cinco", pronunciacion: "Cinco" },
-                    { portugues: "Seis", espanol: "Seis", pronunciacion: "Seis" },
-                    { portugues: "Sete", espanol: "Siete", pronunciacion: "Sete" },
-                    { portugues: "Oito", espanol: "Ocho", pronunciacion: "Oito" },
-                    { portugues: "Nove", espanol: "Nueve", pronunciacion: "Nove" },
-                    { portugues: "Dez", espanol: "Diez", pronunciacion: "Dez" }
+                    { portugues: "Para", espanol: "Para", pronunciacion: "Para" },
+                    { portugues: "Atacantes", espanol: "Atacantes", pronunciacion: "Atacantes" },
+                    { portugues: "Projeto", espanol: "Proyecto", pronunciacion: "Projeto" },
+                    { portugues: "Colocando", espanol: "Colocando", pronunciacion: "Colocando" },
+                    { portugues: "Lado", espanol: "Lado", pronunciacion: "Lado" },
+                    { portugues: "Confronto", espanol: "Enfrentamiento", pronunciacion: "Confronto" },
+                    { portugues: "Direto", espanol: "Directo", pronunciacion: "Direto" },
+                    { portugues: "Maiores", espanol: "Mayores", pronunciacion: "Maiores" },
+                    { portugues: "Prodígios", espanol: "Prodigios", pronunciacion: "Prodígios" },
+                    { portugues: "Futebol", espanol: "Fútbol", pronunciacion: "Futebol" }
                 ]
             },
             {
                 id: 4,
-                nombre: "Familia",
-                imagen: "https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=150&h=150&fit=crop&crop=center",
+                nombre: "Kaiser - El Emperador",
+                imagen: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=150&h=150&fit=crop&crop=center",
                 palabras: [
-                    { portugues: "Família", espanol: "Familia", pronunciacion: "Família" },
-                    { portugues: "Pai", espanol: "Padre", pronunciacion: "Pai" },
-                    { portugues: "Mãe", espanol: "Madre", pronunciacion: "Mãe" },
-                    { portugues: "Irmão", espanol: "Hermano", pronunciacion: "Irmão" },
-                    { portugues: "Irmã", espanol: "Hermana", pronunciacion: "Irmã" },
-                    { portugues: "Filho", espanol: "Hijo", pronunciacion: "Filho" },
-                    { portugues: "Filha", espanol: "Hija", pronunciacion: "Filha" },
-                    { portugues: "Avô", espanol: "Abuelo", pronunciacion: "Avô" },
-                    { portugues: "Avó", espanol: "Abuela", pronunciacion: "Avó" },
-                    { portugues: "Primo/a", espanol: "Primo/a", pronunciacion: "Primo/a" }
+                    { portugues: "Quer", espanol: "Quiere", pronunciacion: "Quer" },
+                    { portugues: "Dizer", espanol: "Decir", pronunciacion: "Dizer" },
+                    { portugues: "Pelo", espanol: "Por el", pronunciacion: "Pelo" },
+                    { portugues: "Visto", espanol: "Visto", pronunciacion: "Visto" },
+                    { portugues: "Visando", espanol: "Apuntando", pronunciacion: "Visando" },
+                    { portugues: "Sobreviver", espanol: "Sobrevivir", pronunciacion: "Sobreviver" },
+                    { portugues: "Agora", espanol: "Ahora", pronunciacion: "Agora" },
+                    { portugues: "Meta", espanol: "Meta", pronunciacion: "Meta" },
+                    { portugues: "Dominar", espanol: "Dominar", pronunciacion: "Dominar" },
+                    { portugues: "Prazer", espanol: "Placer", pronunciacion: "Prazer" }
                 ]
             },
             {
                 id: 5,
-                nombre: "Comida y Bebida",
-                imagen: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=150&h=150&fit=crop&crop=center",
+                nombre: "Presentaciones",
+                imagen: "https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=150&h=150&fit=crop&crop=center",
                 palabras: [
-                    { portugues: "Comida", espanol: "Comida", pronunciacion: "Comida" },
-                    { portugues: "Água", espanol: "Agua", pronunciacion: "Água" },
-                    { portugues: "Pão", espanol: "Pan", pronunciacion: "Pão" },
-                    { portugues: "Arroz", espanol: "Arroz", pronunciacion: "Arroz" },
-                    { portugues: "Feijão", espanol: "Frijoles", pronunciacion: "Feijão" },
-                    { portugues: "Carne", espanol: "Carne", pronunciacion: "Carne" },
-                    { portugues: "Peixe", espanol: "Pescado", pronunciacion: "Peixe" },
-                    { portugues: "Fruta", espanol: "Fruta", pronunciacion: "Fruta" },
-                    { portugues: "Legumes", espanol: "Verduras", pronunciacion: "Legumes" },
-                    { portugues: "Café", espanol: "Café", pronunciacion: "Café" }
+                    { portugues: "Conhecer", espanol: "Conocer", pronunciacion: "Conhecer" },
+                    { portugues: "Vocês", espanol: "Ustedes", pronunciacion: "Vocês" },
+                    { portugues: "Me", espanol: "Me", pronunciacion: "Me" },
+                    { portugues: "Chamem", espanol: "Llamen", pronunciacion: "Chamem" },
+                    { portugues: "Kaiser", espanol: "Kaiser", pronunciacion: "Kaiser" },
+                    { portugues: "Imperador", espanol: "Emperador", pronunciacion: "Imperador" },
+                    { portugues: "Rei", espanol: "Rey", pronunciacion: "Rei" },
+                    { portugues: "Ei", espanol: "Eh", pronunciacion: "Ei" },
+                    { portugues: "Doido", espanol: "Loco", pronunciacion: "Doido" },
+                    { portugues: "Encontrar", espanol: "Encontrar", pronunciacion: "Encontrar" }
                 ]
             },
             {
                 id: 6,
-                nombre: "Colores",
-                imagen: "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=150&h=150&fit=crop&crop=center",
-                palabras: [
-                    { portugues: "Vermelho", espanol: "Rojo", pronunciacion: "Vermelho" },
-                    { portugues: "Azul", espanol: "Azul", pronunciacion: "Azul" },
-                    { portugues: "Verde", espanol: "Verde", pronunciacion: "Verde" },
-                    { portugues: "Amarelo", espanol: "Amarillo", pronunciacion: "Amarelo" },
-                    { portugues: "Preto", espanol: "Negro", pronunciacion: "Preto" },
-                    { portugues: "Branco", espanol: "Blanco", pronunciacion: "Branco" },
-                    { portugues: "Cinza", espanol: "Gris", pronunciacion: "Cinza" },
-                    { portugues: "Roxo", espanol: "Morado", pronunciacion: "Roxo" },
-                    { portugues: "Laranja", espanol: "Naranja", pronunciacion: "Laranja" },
-                    { portugues: "Rosa", espanol: "Rosa", pronunciacion: "Rosa" }
+                nombre: "Desafíos y Rivalidades",
+                imagen: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=center",
+                palavras: [
+                    { portugues: "Certifique", espanol: "Asegúrate", pronunciacion: "Certifique" },
+                    { portugues: "Desafio", espanol: "Desafío", pronunciacion: "Desafio" },
+                    { portugues: "Esmagar", espanol: "Aplastar", pronunciacion: "Esmagar" },
+                    { portugues: "Toque", espanol: "Toque", pronunciacion: "Toque" },
+                    { portugues: "Intimidade", espanol: "Intimidad", pronunciacion: "Intimidade" },
+                    { portugues: "Calma", espanol: "Calma", pronunciacion: "Calma" },
+                    { portugues: "Irritei", espanol: "Irrité", pronunciacion: "Irritei" },
+                    { portugues: "Favorito", espanol: "Favorito", pronunciacion: "Favorito" },
+                    { portugues: "Todos", espanol: "Todos", pronunciacion: "Todos" },
+                    { portugues: "Oportunidade", espanol: "Oportunidad", pronunciacion: "Oportunidade" }
                 ]
             },
             {
                 id: 7,
-                nombre: "Animales",
-                imagen: "https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=150&h=150&fit=crop&crop=center",
-                palabras: [
-                    { portugues: "Cachorro", espanol: "Perro", pronunciacion: "Cachorro" },
-                    { portugues: "Gato", espanol: "Gato", pronunciacion: "Gato" },
-                    { portugues: "Pássaro", espanol: "Pájaro", pronunciacion: "Pássaro" },
-                    { portugues: "Peixe", espanol: "Pez", pronunciacion: "Peixe" },
-                    { portugues: "Cavalo", espanol: "Caballo", pronunciacion: "Cavalo" },
-                    { portugues: "Vaca", espanol: "Vaca", pronunciacion: "Vaca" },
-                    { portugues: "Porco", espanol: "Cerdo", pronunciacion: "Porco" },
-                    { portugues: "Ovelha", espanol: "Oveja", pronunciacion: "Ovelha" },
-                    { portugues: "Elefante", espanol: "Elefante", pronunciacion: "Elefante" },
-                    { portugues: "Leão", espanol: "León", pronunciacion: "Leão" }
+                nombre: "Animales del Circo",
+                imagem: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=150&h=150&fit=crop&crop=center",
+                palavras: [
+                    { portugues: "Animais", espanol: "Animales", pronunciacion: "Animais" },
+                    { portugues: "Circo", espanol: "Circo", pronunciacion: "Circo" },
+                    { portugues: "Herói", espanol: "Héroe", pronunciacion: "Herói" },
+                    { portugues: "Sair", espanol: "Salir", pronunciacion: "Sair" },
+                    { portugues: "Time", espanol: "Equipo", pronunciacion: "Time" },
+                    { portugues: "Frustrado", espanol: "Frustrado", pronunciacion: "Frustrado" },
+                    { portugues: "Momento", espanol: "Momento", pronunciacion: "Momento" },
+                    { portugues: "Tornar", espanol: "Volverse", pronunciacion: "Tornar" },
+                    { portugues: "Palhaço", espanol: "Payaso", pronunciacion: "Palhaço" },
+                    { portugues: "Treinos", espanol: "Entrenamientos", pronunciacion: "Treinos" }
                 ]
             },
             {
                 id: 8,
-                nombre: "Partes del Cuerpo",
-                imagen: "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?w=150&h=150&fit=crop&crop=center",
-                palabras: [
-                    { portugues: "Cabeça", espanol: "Cabeza", pronunciacion: "Cabeça" },
-                    { portugues: "Olhos", espanol: "Ojos", pronunciacion: "Olhos" },
-                    { portugues: "Nariz", espanol: "Nariz", pronunciacion: "Nariz" },
-                    { portugues: "Boca", espanol: "Boca", pronunciacion: "Boca" },
-                    { portugues: "Orelhas", espanol: "Orejas", pronunciacion: "Orelhas" },
-                    { portugues: "Braços", espanol: "Brazos", pronunciacion: "Braços" },
-                    { portugues: "Mãos", espanol: "Manos", pronunciacion: "Mãos" },
-                    { portugues: "Pernas", espanol: "Piernas", pronunciacion: "Pernas" },
-                    { portugues: "Pés", espanol: "Pies", pronunciacion: "Pés" },
-                    { portugues: "Coração", espanol: "Corazón", pronunciacion: "Coração" }
+                nome: "Competencia Intensa",
+                imagem: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=150&h=150&fit=crop&crop=center",
+                palavras: [
+                    { portugues: "Intensos", espanol: "Intensos", pronunciacion: "Intensos" },
+                    { portugues: "Conquistar", espanol: "Conquistar", pronunciacion: "Conquistar" },
+                    { portugues: "Vaga", espanol: "Vacante", pronunciacion: "Vaga" },
+                    { portugues: "Temos", espanol: "Tenemos", pronunciacion: "Temos" },
+                    { portugues: "Pouco", espanol: "Poco", pronunciacion: "Pouco" },
+                    { portugues: "Tempo", espanol: "Tiempo", pronunciacion: "Tempo" },
+                    { portugues: "Apenas", espanol: "Solamente", pronunciacion: "Apenas" },
+                    { portugues: "Destaca", espanol: "Destaca", pronunciacion: "Destaca" },
+                    { portugues: "Primeiro", espanol: "Primero", pronunciacion: "Primeiro" },
+                    { portugues: "Presente", espanol: "Presente", pronunciacion: "Presente" }
                 ]
             },
             {
                 id: 9,
-                nombre: "Ropa",
-                imagen: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=150&h=150&fit=crop&crop=center",
-                palabras: [
-                    { portugues: "Camisa", espanol: "Camisa", pronunciacion: "Camisa" },
-                    { portugues: "Calça", espanol: "Pantalón", pronunciacion: "Calça" },
-                    { portugues: "Vestido", espanol: "Vestido", pronunciacion: "Vestido" },
-                    { portugues: "Sapato", espanol: "Zapato", pronunciacion: "Sapato" },
-                    { portugues: "Meia", espanol: "Calcetín", pronunciacion: "Meia" },
-                    { portugues: "Casaco", espanol: "Abrigo", pronunciacion: "Casaco" },
-                    { portugues: "Chapéu", espanol: "Sombrero", pronunciacion: "Chapéu" },
-                    { portugues: "Luvas", espanol: "Guantes", pronunciacion: "Luvas" },
-                    { portugues: "Óculos", espanol: "Gafas", pronunciacion: "Óculos" },
-                    { portugues: "Bolsa", espanol: "Bolso", pronunciacion: "Bolsa" }
+                nome: "Juego y Egoísmo",
+                imagem: "https://images.unsplash.com/photo-1486286701208-1d58e9338013?w=150&h=150&fit=crop&crop=center",
+                palavras: [
+                    { portugues: "Que", espanol: "Que", pronunciacion: "Que" },
+                    { portugues: "Comece", espanol: "Comience", pronunciacion: "Comece" },
+                    { portugues: "Jogo", espanol: "Juego", pronunciacion: "Jogo" },
+                    { portugues: "Então", espanol: "Entonces", pronunciacion: "Então" },
+                    { portugues: "Olhe", espanol: "Mire", pronunciacion: "Olhe" },
+                    { portugues: "Bem", espanol: "Bien", pronunciacion: "Bem" },
+                    { portugues: "Pra", espanol: "Para", pronunciacion: "Pra" },
+                    { portugues: "Mim", espanol: "Mí", pronunciacion: "Mim" },
+                    { portugues: "Mesmo", espanol: "Mismo", pronunciacion: "Mesmo" },
+                    { portugues: "Consegui", espanol: "Conseguí", pronunciacion: "Consegui" }
                 ]
             },
             {
                 id: 10,
-                nombre: "Tiempo y Clima",
-                imagen: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=150&h=150&fit=crop&crop=center",
-                palabras: [
-                    { portugues: "Tempo", espanol: "Tiempo", pronunciacion: "Tempo" },
-                    { portugues: "Sol", espanol: "Sol", pronunciacion: "Sol" },
-                    { portugues: "Chuva", espanol: "Lluvia", pronunciacion: "Chuva" },
-                    { portugues: "Neve", espanol: "Nieve", pronunciacion: "Neve" },
-                    { portugues: "Vento", espanol: "Viento", pronunciacion: "Vento" },
-                    { portugues: "Nuvem", espanol: "Nube", pronunciacion: "Nuvem" },
-                    { portugues: "Calor", espanol: "Calor", pronunciacion: "Calor" },
-                    { portugues: "Frio", espanol: "Frío", pronunciacion: "Frio" },
-                    { portugues: "Dia", espanol: "Día", pronunciacion: "Dia" },
-                    { portugues: "Noite", espanol: "Noche", pronunciacion: "Noite" }
+                nome: "Kunigami y Lavinho",
+                imagem: "https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?w=150&h=150&fit=crop&crop=center",
+                palavras: [
+                    portugues: "Titular", espanol: "Titular", pronunciacion: "Titular" },
+                    { portugues: "Venci", espanol: "Vencí", pronunciacion: "Venci" },
+                    { portugues: "Merda", espanol: "Mierda", pronunciacion: "Merda" },
+                    { portugues: "Gênio", espanol: "Genio", pronunciacion: "Gênio" },
+                    { portugues: "Somente", espanol: "Solamente", pronunciacion: "Somente" },
+                    { portugues: "Kunigami", espanol: "Kunigami", pronunciacion: "Kunigami" },
+                    { portugues: "Jogar", espanol: "Jugar", pronunciacion: "Jogar" },
+                    { portugues: "Quanto", espanol: "Cuánto", pronunciacion: "Quanto" },
+                    { portugues: "Observe", espanol: "Observe", pronunciacion: "Observe" },
+                    { portugues: "Minha", espanol: "Mi", pronunciacion: "Minha" }
                 ]
             }
         ]
@@ -342,11 +342,11 @@ function mostrarResultados() {
     mensaje += `Porcentaje de aciertos: ${porcentaje}%\n\n`;
     
     if (porcentaje >= 80) {
-        mensaje += "¡Excelente trabajo! 🎉";
+        mensaje += "¡Excelente trabajo! 🎉 Eres un verdadero egoísta";
     } else if (porcentaje >= 60) {
-        mensaje += "Buen trabajo, pero puedes mejorar. ¡Sigue practicando! 💪";
+        mensaje += "Buen trabajo, pero puedes mejorar. ¡Sigue practicando en Blue Lock! 💪";
     } else {
-        mensaje += "Necesitas más práctica. ¡No te rindas! 📚";
+        mensaje += "Necesitas más práctica. ¡No te rindas y sigue entrenando! 📚";
     }
     
     document.getElementById('resultado-final').textContent = mensaje;
