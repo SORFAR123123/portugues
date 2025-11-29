@@ -40,7 +40,7 @@ const configImagenes = {
 // ESTRUCTURA PRINCIPAL - PORTUGUÉS
 // ============================================================================
 
-const estructura = {
+const estrutura = {
     'contenedor1': {
         nombre: 'Saudações Básicas',
         subcontenedores: {
@@ -59,69 +59,69 @@ const estructura = {
         }
     },
     'contenedor2': {
-        nome: 'Comida e Restaurante',
+        nombre: 'Comida e Restaurante',
         subcontenedores: {
             'sub2_1': { 
-                nome: 'Pratos Principais', 
+                nombre: 'Pratos Principais', 
                 mazos: generarMazosEspecificos('sub2_1') 
             },
             'sub2_2': { 
-                nome: 'Bebidas', 
+                nombre: 'Bebidas', 
                 mazos: generarMazosEspecificos('sub2_2') 
             },
             'sub2_3': { 
-                nome: 'Sobremesas', 
+                nombre: 'Sobremesas', 
                 mazos: generarMazosEspecificos('sub2_3') 
             }
         }
     },
     'contenedor3': {
-        nome: 'Viagens e Transporte',
+        nombre: 'Viagens e Transporte',
         subcontenedores: {
             'sub3_1': { 
-                nome: 'Meios de Transporte', 
+                nombre: 'Meios de Transporte', 
                 mazos: generarMazosEspecificos('sub3_1') 
             },
             'sub3_2': { 
-                nome: 'Direções', 
+                nombre: 'Direções', 
                 mazos: generarMazosEspecificos('sub3_2') 
             },
             'sub3_3': { 
-                nome: 'Hotelaria', 
+                nombre: 'Hotelaria', 
                 mazos: generarMazosEspecificos('sub3_3') 
             }
         }
     },
     'contenedor4': {
-        nome: 'Trabalho e Negócios',
+        nombre: 'Trabalho e Negócios',
         subcontenedores: {
             'sub4_1': { 
-                nome: 'Profissões', 
+                nombre: 'Profissões', 
                 mazos: generarMazosEspecificos('sub4_1') 
             },
             'sub4_2': { 
-                nome: 'Escritório', 
+                nombre: 'Escritório', 
                 mazos: generarMazosEspecificos('sub4_2') 
             },
             'sub4_3': { 
-                nome: 'Reuniões', 
+                nombre: 'Reuniões', 
                 mazos: generarMazosEspecificos('sub4_3') 
             }
         }
     },
     'contenedor5': {
-        nome: 'Casa e Família',
+        nombre: 'Casa e Família',
         subcontenedores: {
             'sub5_1': { 
-                nome: 'Família', 
+                nombre: 'Família', 
                 mazos: generarMazosEspecificos('sub5_1') 
             },
             'sub5_2': { 
-                nome: 'Casa', 
+                nombre: 'Casa', 
                 mazos: generarMazosEspecificos('sub5_2') 
             },
             'sub5_3': { 
-                nome: 'Atividades Domésticas', 
+                nombre: 'Atividades Domésticas', 
                 mazos: generarMazosEspecificos('sub5_3') 
             }
         }
@@ -138,7 +138,7 @@ function generarMazosEspecificos(subcontenedorId) {
     for (let i = 1; i <= 5; i++) {
         const mazoId = `mazo${i}`;
         mazos[mazoId] = {
-            nome: `Mazo ${i}`,
+            nombre: `Mazo ${i}`,
             palavras: generarPalabrasEspecificas(subcontenedorId, i)
         };
     }
@@ -185,30 +185,6 @@ function generarPalabrasEspecificas(subcontenedorId, numeroMazo) {
                 { portugues: 'Eu tenho ... anos', opciones: ['Yo tengo ... años', 'Yo soy ... años', 'Yo tengo ... hermanos', 'Yo quiero ... años'], resposta: 0 },
                 { portugues: 'O que você faz?', opciones: ['¿Qué haces?', '¿Qué quieres?', '¿Qué tienes?', '¿Qué necesitas?'], resposta: 0 },
                 { portugues: 'Eu sou estudante', opciones: ['Yo soy estudiante', 'Yo soy profesor', 'Yo soy médico', 'Yo soy ingeniero'], resposta: 0 }
-            ],
-            4: [
-                { portugues: 'Faz favor', opciones: ['Por favor', 'Gracias', 'De nada', 'Perdón'], resposta: 0 },
-                { portugues: 'Muito prazer', opciones: ['Mucho gusto', 'Encantado', 'Hola', 'Adiós'], resposta: 0 },
-                { portugues: 'Como tem passado?', opciones: ['¿Cómo te ha ido?', '¿Qué tal?', '¿Cómo estás?', '¿Todo bien?'], resposta: 0 },
-                { portugues: 'Tudo em ordem?', opciones: ['¿Todo en orden?', '¿Qué tal?', '¿Cómo estás?', '¿Qué pasa?'], resposta: 0 },
-                { portugues: 'Que bom te ver', opciones: ['Qué bueno verte', 'Hola', 'Adiós', 'Gracias'], resposta: 0 },
-                { portugues: 'Há quanto tempo!', opciones: ['¡Cuánto tiempo!', 'Hola', 'Adiós', 'Gracias'], resposta: 0 },
-                { portugues: 'Como tem estado?', opciones: ['¿Cómo has estado?', '¿Qué tal?', '¿Cómo estás?', '¿Todo bien?'], resposta: 0 },
-                { portugues: 'Vai tudo bem?', opciones: ['¿Va todo bien?', '¿Qué tal?', '¿Cómo estás?', '¿Qué pasa?'], resposta: 0 },
-                { portugues: 'Estou ótimo', opciones: ['Estoy genial', 'Estoy bien', 'Estoy mal', 'Estoy regular'], resposta: 0 },
-                { portugues: 'Mais ou menos', opciones: ['Más o menos', 'Muy bien', 'Mal', 'Regular'], resposta: 0 }
-            ],
-            5: [
-                { portugues: 'Adeus e boa sorte', opciones: ['Adiós y buena suerte', 'Hola y gracias', 'Hasta luego', 'Buenos días'], resposta: 0 },
-                { portugues: 'Tenha um bom dia', opciones: ['Que tengas un buen día', 'Buenos días', 'Buenas tardes', 'Buenas noches'], resposta: 0 },
-                { portugues: 'Boa noite e durma bem', opciones: ['Buenas noches y duerme bien', 'Buenos días', 'Buenas tardes', 'Hola'], resposta: 0 },
-                { portugues: 'Até a próxima', opciones: ['Hasta la próxima', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 },
-                { portugues: 'Nos vemos', opciones: ['Nos vemos', 'Hola', 'Adiós', 'Gracias'], resposta: 0 },
-                { portugues: 'Foi um prazer', opciones: ['Fue un placer', 'Mucho gusto', 'Encantado', 'Hola'], resposta: 0 },
-                { portugues: 'Cuide-se', opciones: ['Cuídate', 'Adiós', 'Hola', 'Gracias'], resposta: 0 },
-                { portugues: 'Até breve', opciones: ['Hasta pronto', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 },
-                { portugues: 'Boa viagem', opciones: ['Buen viaje', 'Buenos días', 'Buenas tardes', 'Buenas noches'], resposta: 0 },
-                { portugues: 'Até mais tarde', opciones: ['Hasta más tarde', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 }
             ]
         },
         'sub1_2': {
@@ -223,54 +199,6 @@ function generarPalabrasEspecificas(subcontenedorId, numeroMazo) {
                 { portugues: 'Igualmente', opciones: ['Igualmente', 'También', 'Adiós', 'Hola'], resposta: 0 },
                 { portugues: 'Permita-me apresentar-me', opciones: ['Permítame presentarme', 'Me presento', 'Soy...', 'Hola'], resposta: 0 },
                 { portugues: 'Sou...', opciones: ['Soy...', 'Tengo...', 'Quiero...', 'Voy...'], resposta: 0 }
-            ],
-            2: [
-                { portugues: 'De onde você é?', opciones: ['¿De dónde eres?', '¿Cómo estás?', '¿Qué tal?', '¿Cuántos años tienes?'], resposta: 0 },
-                { portugues: 'Eu sou do Brasil', opciones: ['Soy de Brasil', 'Soy de México', 'Soy de España', 'Soy de Argentina'], resposta: 0 },
-                { portugues: 'E você?', opciones: ['¿Y tú?', '¿Y usted?', '¿Y él?', '¿Y ella?'], resposta: 0 },
-                { portugues: 'O que você faz?', opciones: ['¿Qué haces?', '¿Qué quieres?', '¿Qué tienes?', '¿Qué necesitas?'], resposta: 0 },
-                { portugues: 'Eu sou estudante', opciones: ['Soy estudiante', 'Soy profesor', 'Soy médico', 'Soy ingeniero'], resposta: 0 },
-                { portugues: 'Eu trabalho como...', opciones: ['Trabajo como...', 'Soy...', 'Estudio...', 'Vivo...'], resposta: 0 },
-                { portugues: 'Qual é a sua profissão?', opciones: ['¿Cuál es tu profesión?', '¿Qué haces?', '¿Dónde trabajas?', '¿Qué estudias?'], resposta: 0 },
-                { portugues: 'Eu sou engenheiro', opciones: ['Soy ingeniero', 'Soy médico', 'Soy profesor', 'Soy estudiante'], resposta: 0 },
-                { portugues: 'Há quanto tempo você está aqui?', opciones: ['¿Cuánto tiempo llevas aquí?', '¿Desde cuándo estás aquí?', '¿Cuándo llegaste?', '¿Dónde vives?'], resposta: 0 },
-                { portugues: 'Estou aqui há uma semana', opciones: ['Llevo una semana aquí', 'Llegué hace una semana', 'Vivo aquí una semana', 'Estudio aquí una semana'], resposta: 0 }
-            ],
-            3: [
-                { portugues: 'Você fala português?', opciones: ['¿Hablas portugués?', '¿Hablas español?', '¿Hablas inglés?', '¿Hablas francés?'], resposta: 0 },
-                { portugues: 'Falo um pouco', opciones: ['Hablo un poco', 'Hablo mucho', 'No hablo', 'Hablo bien'], resposta: 0 },
-                { portugues: 'Estou aprendendo', opciones: ['Estoy aprendiendo', 'Estoy enseñando', 'Estoy trabajando', 'Estoy estudiando'], resposta: 0 },
-                { portugues: 'Como se diz... em português?', opciones: ['¿Cómo se dice... en portugués?', '¿Qué significa...?', '¿Cómo se pronuncia...?', '¿Qué es...?'], resposta: 0 },
-                { portugues: 'O que significa...?', opciones: ['¿Qué significa...?', '¿Cómo se dice...?', '¿Qué es...?', '¿Dónde está...?'], resposta: 0 },
-                { portugues: 'Pode repetir?', opciones: ['¿Puede repetir?', '¿Puede hablar más despacio?', 'No entiendo', '¿Cómo?'], resposta: 0 },
-                { portugues: 'Fale mais devagar', opciones: ['Hable más despacio', 'Hable más rápido', 'Hable más alto', 'Repita por favor'], resposta: 0 },
-                { portugues: 'Não entendi', opciones: ['No entendí', 'No sé', 'No conozco', 'No recuerdo'], resposta: 0 },
-                { portugues: 'Pode explicar?', opciones: ['¿Puede explicar?', '¿Puede ayudar?', '¿Puede mostrar?', '¿Puede repetir?'], resposta: 0 },
-                { portugues: 'Compreendo', opciones: ['Comprendo', 'Entiendo', 'Sé', 'Conozco'], resposta: 0 }
-            ],
-            4: [
-                { portugues: 'Você é casado?', opciones: ['¿Estás casado?', '¿Tienes hijos?', '¿Dónde vives?', '¿Qué edad tienes?'], resposta: 0 },
-                { portugues: 'Sou solteiro', opciones: ['Soy soltero', 'Soy casado', 'Soy divorciado', 'Soy viudo'], resposta: 0 },
-                { portugues: 'Tenho filhos', opciones: ['Tengo hijos', 'Tengo hermanos', 'Tengo padres', 'Tengo amigos'], resposta: 0 },
-                { portugues: 'Moro com minha família', opciones: ['Vivo con mi familia', 'Vivo solo', 'Vivo con amigos', 'Vivo con mi pareja'], resposta: 0 },
-                { portugues: 'Qual é o seu estado civil?', opciones: ['¿Cuál es tu estado civil?', '¿Estás casado?', '¿Tienes novia?', '¿Tienes hijos?'], resposta: 0 },
-                { portugues: 'Sou divorciado', opciones: ['Soy divorciado', 'Soy casado', 'Soy soltero', 'Soy viudo'], resposta: 0 },
-                { portugues: 'Tenho dois filhos', opciones: ['Tengo dos hijos', 'Tengo un hijo', 'Tengo tres hijos', 'No tengo hijos'], resposta: 0 },
-                { portugues: 'Minha esposa se chama...', opciones: ['Mi esposa se llama...', 'Mi marido se llama...', 'Mi novia se llama...', 'Mi amigo se llama...'], resposta: 0 },
-                { portugues: 'Estamos juntos há... anos', opciones: ['Llevamos juntos... años', 'Nos casamos hace... años', 'Nos conocimos hace... años', 'Trabajamos juntos... años'], resposta: 0 },
-                { portugues: 'Somos casados', opciones: ['Estamos casados', 'Somos novios', 'Somos amigos', 'Somos compañeros'], resposta: 0 }
-            ],
-            5: [
-                { portugues: 'O que você gosta de fazer?', opciones: ['¿Qué te gusta hacer?', '¿Qué quieres hacer?', '¿Qué puedes hacer?', '¿Qué sabes hacer?'], resposta: 0 },
-                { portugues: 'Gosto de ler', opciones: ['Me gusta leer', 'Me gusta escribir', 'Me gusta estudiar', 'Me gusta trabajar'], resposta: 0 },
-                { portugues: 'Meu hobby é...', opciones: ['Mi hobby es...', 'Mi trabajo es...', 'Mi estudio es...', 'Mi familia es...'], resposta: 0 },
-                { portugues: 'Pratico esportes', opciones: ['Practico deportes', 'Miro deportes', 'Enseño deportes', 'Estudio deportes'], resposta: 0 },
-                { portugues: 'Gosto de música', opciones: ['Me gusta la música', 'Me gusta el cine', 'Me gusta el arte', 'Me gusta la literatura'], resposta: 0 },
-                { portugues: 'Toco violão', opciones: ['Toco la guitarra', 'Toco el piano', 'Toco la batería', 'Canto'], resposta: 0 },
-                { portugues: 'Assisto filmes', opciones: ['Veo películas', 'Veo series', 'Veo deportes', 'Veo noticias'], resposta: 0 },
-                { portugues: 'Leio livros', opciones: ['Leo libros', 'Escribo libros', 'Compro libros', 'Vendo libros'], resposta: 0 },
-                { portugues: 'Viajo muito', opciones: ['Viajo mucho', 'Trabajo mucho', 'Estudio mucho', 'Leo mucho'], resposta: 0 },
-                { portugues: 'Cozinho', opciones: ['Cocino', 'Como', 'Bebo', 'Compro comida'], resposta: 0 }
             ]
         },
         'sub1_3': {
@@ -285,60 +213,11 @@ function generarPalabrasEspecificas(subcontenedorId, numeroMazo) {
                 { portugues: 'Tenha um bom dia', opciones: ['Que tengas un buen día', 'Buenos días', 'Buenas tardes', 'Buenas noches'], resposta: 0 },
                 { portugues: 'Boa noite', opciones: ['Buenas noches', 'Buenos días', 'Buenas tardes', 'Hola'], resposta: 0 },
                 { portugues: 'Adeus', opciones: ['Adiós', 'Hola', 'Hasta luego', 'Buenos días'], resposta: 0 }
-            ],
-            2: [
-                { portugues: 'Foi um prazer', opciones: ['Fue un placer', 'Mucho gusto', 'Encantado', 'Hola'], resposta: 0 },
-                { portugues: 'O prazer foi meu', opciones: ['El placer fue mío', 'Mucho gusto', 'Encantado', 'Hola'], resposta: 0 },
-                { portugues: 'Volte sempre', opciones: ['Vuelve siempre', 'Ven siempre', 'Llama siempre', 'Escribe siempre'], resposta: 0 },
-                { portugues: 'Espero vê-lo em breve', opciones: ['Espero verte pronto', 'Nos vemos pronto', 'Hasta pronto', 'Adiós'], resposta: 0 },
-                { portugues: 'Mantenha contato', opciones: ['Mantén el contacto', 'Escríbeme', 'Llámame', 'Visítame'], resposta: 0 },
-                { portugues: 'Até a próxima', opciones: ['Hasta la próxima', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 },
-                { portugues: 'Boa sorte', opciones: ['Buena suerte', 'Gracias', 'Por favor', 'De nada'], resposta: 0 },
-                { portugues: 'Se cuida', opciones: ['Cuídate', 'Adiós', 'Hola', 'Gracias'], resposta: 0 },
-                { portugues: 'Até logo, amigo', opciones: ['Hasta luego, amigo', 'Adiós, amigo', 'Hola, amigo', 'Gracias, amigo'], resposta: 0 },
-                { portugues: 'Nos falamos', opciones: ['Hablamos', 'Nos vemos', 'Nos escribimos', 'Nos llamamos'], resposta: 0 }
-            ],
-            3: [
-                { portugues: 'Tenha uma boa viagem', opciones: ['Que tengas un buen viaje', 'Buen viaje', 'Buenos días', 'Buenas tardes'], resposta: 0 },
-                { portugues: 'Boa viagem', opciones: ['Buen viaje', 'Buenos días', 'Buenas tardes', 'Buenas noches'], resposta: 0 },
-                { portugues: 'Volte logo', opciones: ['Vuelve pronto', 'Ven pronto', 'Llama pronto', 'Escribe pronto'], resposta: 0 },
-                { portugues: 'Estarei esperando', opciones: ['Estaré esperando', 'Te espero', 'Nos vemos', 'Hasta luego'], resposta: 0 },
-                { portugues: 'Não se esqueça de mim', opciones: ['No me olvides', 'Recuérdame', 'Piensa en mí', 'Escríbeme'], resposta: 0 },
-                { portugues: 'Saudades', opciones: ['Te extraño', 'Te quiero', 'Te amo', 'Te necesito'], resposta: 0 },
-                { portugues: 'Até sempre', opciones: ['Hasta siempre', 'Para siempre', 'Siempre', 'Nunca'], resposta: 0 },
-                { portugues: 'Adeus e boa sorte', opciones: ['Adiós y buena suerte', 'Hola y gracias', 'Hasta luego', 'Buenos días'], resposta: 0 },
-                { portugues: 'Que Deus te acompanhe', opciones: ['Que Dios te acompañe', 'Que tengas suerte', 'Que te vaya bien', 'Cuídate'], resposta: 0 },
-                { portugues: 'Até um dia destes', opciones: ['Hasta uno de estos días', 'Hasta pronto', 'Hasta luego', 'Adiós'], resposta: 0 }
-            ],
-            4: [
-                { portugues: 'Foi bom te ver', opciones: ['Fue bueno verte', 'Me alegro de verte', 'Qué bueno verte', 'Hola'], resposta: 0 },
-                { portugues: 'Espero que nos vejamos logo', opciones: ['Espero que nos veamos pronto', 'Nos vemos pronto', 'Hasta pronto', 'Adiós'], resposta: 0 },
-                { portugues: 'Mande notícias', opciones: ['Manda noticias', 'Escríbeme', 'Llámame', 'Visítame'], resposta: 0 },
-                { portugues: 'Não demore', opciones: ['No tardes', 'Ven pronto', 'Llama pronto', 'Escribe pronto'], resposta: 0 },
-                { portugues: 'Até daqui a pouco', opciones: ['Hasta dentro de poco', 'Hasta pronto', 'Hasta luego', 'Adiós'], resposta: 0 },
-                { portugues: 'Te vejo em breve', opciones: ['Te veo pronto', 'Nos vemos pronto', 'Hasta pronto', 'Adiós'], resposta: 0 },
-                { portugues: 'Passa bem', opciones: ['Que te vaya bien', 'Cuídate', 'Adiós', 'Hola'], resposta: 0 },
-                { portugues: 'Até a vista', opciones: ['Hasta la vista', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 },
-                { portugues: 'Nos encontramos depois', opciones: ['Nos encontramos después', 'Nos vemos después', 'Hasta luego', 'Adiós'], resposta: 0 },
-                { portugues: 'Foi um prazer conversar', opciones: ['Fue un placer conversar', 'Me gustó hablar contigo', 'Fue bueno hablar', 'Hola'], resposta: 0 }
-            ],
-            5: [
-                { portugues: 'Até o próximo encontro', opciones: ['Hasta el próximo encuentro', 'Hasta la próxima reunión', 'Hasta luego', 'Adiós'], resposta: 0 },
-                { portugues: 'Que tenhas um bom descanso', opciones: ['Que tengas un buen descanso', 'Descansa bien', 'Duerme bien', 'Buenas noches'], resposta: 0 },
-                { portugues: 'Bom fim de semana', opciones: ['Buen fin de semana', 'Buenos días', 'Buenas tardes', 'Buenas noches'], resposta: 0 },
-                { portugues: 'Até segunda-feira', opciones: ['Hasta el lunes', 'Hasta mañana', 'Hasta la semana que viene', 'Adiós'], resposta: 0 },
-                { portugues: 'Nos falamos amanhã', opciones: ['Hablamos mañana', 'Nos vemos mañana', 'Hasta mañana', 'Adiós'], resposta: 0 },
-                { portugues: 'Até a próxima semana', opciones: ['Hasta la próxima semana', 'Hasta la semana que viene', 'Hasta luego', 'Adiós'], resposta: 0 },
-                { portugues: 'Tenha um ótimo dia', opciones: ['Que tengas un día excelente', 'Buen día', 'Buenos días', 'Buenas tardes'], resposta: 0 },
-                { portugues: 'Até mais', opciones: ['Hasta más', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 },
-                { portugues: 'Foi ótimo', opciones: ['Fue genial', 'Fue bueno', 'Fue regular', 'Fue malo'], resposta: 0 },
-                { portugues: 'Até qualquer hora', opciones: ['Hasta cualquier hora', 'Hasta cuando quieras', 'Hasta luego', 'Adiós'], resposta: 0 }
             ]
         }
-        // ... (continuar con los demás subcontenedores)
     };
 
-    if (palabrasDatabase[subcontenedorId] && palavrasDatabase[subcontenedorId][numeroMazo]) {
+    if (palavrasDatabase[subcontenedorId] && palavrasDatabase[subcontenedorId][numeroMazo]) {
         return palavrasDatabase[subcontenedorId][numeroMazo];
     } else {
         return generarPalabras(10);
@@ -361,7 +240,7 @@ function generarPalabras(cantidad) {
     ];
     
     for (let i = 0; i < quantidade; i++) {
-        palavras.push({...palabrasBase[i % palavrasBase.length]});
+        palavras.push({...palavrasBase[i % palavrasBase.length]});
     }
     return palavras;
 }
@@ -431,8 +310,8 @@ function cargarContenedor(idContenedor) {
         contenedorActual = idContenedor;
         const contenedor = estrutura[idContenedor];
         
-        document.getElementById('titulo-contenedor').textContent = contenedor.nome || contenedor.nombre;
-        document.getElementById('nombre-contenedor').textContent = `Sub-Contêineres de ${contenedor.nome || contenedor.nombre}`;
+        document.getElementById('titulo-contenedor').textContent = contenedor.nombre;
+        document.getElementById('nombre-contenedor').textContent = `Sub-Contêineres de ${contenedor.nombre}`;
         
         const contenedorSub = document.getElementById('contenedor-subcontenedores');
         contenedorSub.innerHTML = '';
@@ -444,8 +323,8 @@ function cargarContenedor(idContenedor) {
             subDiv.onclick = () => cargarSubcontenedor(key);
             
             subDiv.innerHTML = `
-                <img src="${obtenerUrlImagen('subcontenedores', key)}" alt="${sub.nome || sub.nombre}" class="subcontenedor-imagen">
-                <div class="subcontenedor-texto">${sub.nome || sub.nombre}</div>
+                <img src="${obtenerUrlImagen('subcontenedores', key)}" alt="${sub.nombre}" class="subcontenedor-imagen">
+                <div class="subcontenedor-texto">${sub.nombre}</div>
                 <div class="subcontenedor-info">5 mazos disponíveis</div>
             `;
             
@@ -462,8 +341,8 @@ function cargarSubcontenedor(idSubcontenedor) {
     if (subcontenedor) {
         subcontenedorActual = idSubcontenedor;
         
-        document.getElementById('titulo-subcontenedor').textContent = subcontenedor.nome || subcontenedor.nombre;
-        document.getElementById('nombre-subcontenedor').textContent = `Mazos de ${subcontenedor.nome || subcontenedor.nombre}`;
+        document.getElementById('titulo-subcontenedor').textContent = subcontenedor.nombre;
+        document.getElementById('nombre-subcontenedor').textContent = `Mazos de ${subcontenedor.nombre}`;
         
         const contenedorMazos = document.getElementById('contenedor-mazos');
         contenedorMazos.innerHTML = '';
@@ -475,8 +354,8 @@ function cargarSubcontenedor(idSubcontenedor) {
             mazoDiv.onclick = () => cargarMazo(key);
             
             mazoDiv.innerHTML = `
-                <img src="${obtenerUrlImagen('mazos', key)}" alt="${mazo.nome || mazo.nombre}" class="mazo-imagen">
-                <div class="mazo-texto">${mazo.nome || mazo.nombre}</div>
+                <img src="${obtenerUrlImagen('mazos', key)}" alt="${mazo.nombre}" class="mazo-imagen">
+                <div class="mazo-texto">${mazo.nombre}</div>
                 <div class="mazo-info">10 palavras</div>
             `;
             
