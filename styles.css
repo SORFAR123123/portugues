@@ -72,100 +72,6 @@ h1 {
 }
 
 /* CARDS PRINCIPALES */
-.lastsummer-card {
-    background: linear-gradient(135deg, #4a90e2, #7b68ee);
-    border-radius: 20px;
-    padding: 20px;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3);
-    border: 3px solid #4169e1;
-    max-width: 300px;
-    margin-bottom: 30px;
-}
-
-.lastsummer-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(74, 144, 226, 0.5);
-}
-
-.lastsummer-imagen {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid white;
-    margin-bottom: 15px;
-}
-
-.lastsummer-texto {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.lastsummer-info {
-    font-size: 0.9rem;
-    color: #e0e0e0;
-    margin-top: 8px;
-}
-
-/* PANTALLA DE SUBCONTENEDORES */
-.contenedor-subcontenedores {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.subcontenedor-card {
-    background: linear-gradient(135deg, #4a90e2, #7b68ee);
-    border-radius: 20px;
-    padding: 25px;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3);
-    border: 3px solid #4169e1;
-}
-
-.subcontenedor-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(74, 144, 226, 0.5);
-}
-
-.subcontenedor-imagen {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid white;
-    margin-bottom: 15px;
-}
-
-.subcontenedor-texto {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
-}
-
-.subcontenedor-info {
-    font-size: 0.9rem;
-    color: #e0e0e0;
-}
-
-/* PANTALLA DE MAZOS */
-.contenedor-mazos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    margin-top: 30px;
-}
-
 .mazo-card {
     background: linear-gradient(135deg, #4a90e2, #7b68ee);
     border-radius: 20px;
@@ -192,7 +98,7 @@ h1 {
 }
 
 .mazo-texto {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -407,14 +313,6 @@ h1 {
         grid-template-columns: 1fr;
     }
     
-    .contenedor-subcontenedores {
-        grid-template-columns: 1fr;
-    }
-    
-    .contenedor-mazos {
-        grid-template-columns: 1fr;
-    }
-    
     .palabra-portugues {
         font-size: 3rem;
     }
@@ -425,20 +323,6 @@ h1 {
     
     h1 {
         font-size: 2rem;
-    }
-    
-    .lastsummer-imagen {
-        width: 150px;
-        height: 150px;
-    }
-    
-    .lastsummer-texto {
-        font-size: 1.3rem;
-    }
-    
-    .subcontenedor-imagen {
-        width: 120px;
-        height: 120px;
     }
     
     .mazo-imagen {
