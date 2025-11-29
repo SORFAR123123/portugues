@@ -46,15 +46,33 @@ const estrutura = {
         subcontenedores: {
             'sub1_1': { 
                 nombre: 'Cumprimentos Diários', 
-                mazos: generarMazosEspecificos('sub1_1') 
+                mazos: {
+                    'mazo1': { nombre: 'Mazo 1', palavras: generarPalabrasBasicas(1) },
+                    'mazo2': { nombre: 'Mazo 2', palavras: generarPalabrasBasicas(2) },
+                    'mazo3': { nombre: 'Mazo 3', palavras: generarPalabrasBasicas(3) },
+                    'mazo4': { nombre: 'Mazo 4', palavras: generarPalabrasBasicas(4) },
+                    'mazo5': { nombre: 'Mazo 5', palavras: generarPalabrasBasicas(5) }
+                }
             },
             'sub1_2': { 
                 nombre: 'Apresentações', 
-                mazos: generarMazosEspecificos('sub1_2') 
+                mazos: {
+                    'mazo1': { nombre: 'Mazo 1', palavras: generarPalabrasPresentaciones(1) },
+                    'mazo2': { nombre: 'Mazo 2', palavras: generarPalabrasPresentaciones(2) },
+                    'mazo3': { nombre: 'Mazo 3', palavras: generarPalabrasPresentaciones(3) },
+                    'mazo4': { nombre: 'Mazo 4', palavras: generarPalabrasPresentaciones(4) },
+                    'mazo5': { nombre: 'Mazo 5', palavras: generarPalabrasPresentaciones(5) }
+                }
             },
             'sub1_3': { 
                 nombre: 'Despedidas', 
-                mazos: generarMazosEspecificos('sub1_3') 
+                mazos: {
+                    'mazo1': { nombre: 'Mazo 1', palavras: generarPalabrasDespedidas(1) },
+                    'mazo2': { nombre: 'Mazo 2', palavras: generarPalabrasDespedidas(2) },
+                    'mazo3': { nombre: 'Mazo 3', palavras: generarPalabrasDespedidas(3) },
+                    'mazo4': { nombre: 'Mazo 4', palavras: generarPalabrasDespedidas(4) },
+                    'mazo5': { nombre: 'Mazo 5', palavras: generarPalabrasDespedidas(5) }
+                }
             }
         }
     },
@@ -63,15 +81,33 @@ const estrutura = {
         subcontenedores: {
             'sub2_1': { 
                 nombre: 'Pratos Principais', 
-                mazos: generarMazosEspecificos('sub2_1') 
+                mazos: {
+                    'mazo1': { nombre: 'Mazo 1', palavras: generarPalabrasComida(1) },
+                    'mazo2': { nombre: 'Mazo 2', palavras: generarPalabrasComida(2) },
+                    'mazo3': { nombre: 'Mazo 3', palavras: generarPalabrasComida(3) },
+                    'mazo4': { nombre: 'Mazo 4', palavras: generarPalabrasComida(4) },
+                    'mazo5': { nombre: 'Mazo 5', palavras: generarPalabrasComida(5) }
+                }
             },
             'sub2_2': { 
                 nombre: 'Bebidas', 
-                mazos: generarMazosEspecificos('sub2_2') 
+                mazos: {
+                    'mazo1': { nombre: 'Mazo 1', palavras: generarPalabrasBebidas(1) },
+                    'mazo2': { nombre: 'Mazo 2', palavras: generarPalabrasBebidas(2) },
+                    'mazo3': { nombre: 'Mazo 3', palavras: generarPalabrasBebidas(3) },
+                    'mazo4': { nombre: 'Mazo 4', palavras: generarPalabrasBebidas(4) },
+                    'mazo5': { nombre: 'Mazo 5', palavras: generarPalabrasBebidas(5) }
+                }
             },
             'sub2_3': { 
                 nombre: 'Sobremesas', 
-                mazos: generarMazosEspecificos('sub2_3') 
+                mazos: {
+                    'mazo1': { nombre: 'Mazo 1', palavras: generarPalabrasSobremesas(1) },
+                    'mazo2': { nombre: 'Mazo 2', palavras: generarPalabrasSobremesas(2) },
+                    'mazo3': { nombre: 'Mazo 3', palavras: generarPalabrasSobremesas(3) },
+                    'mazo4': { nombre: 'Mazo 4', palavras: generarPalabrasSobremesas(4) },
+                    'mazo5': { nombre: 'Mazo 5', palavras: generarPalabrasSobremesas(5) }
+                }
             }
         }
     },
@@ -80,169 +116,184 @@ const estrutura = {
         subcontenedores: {
             'sub3_1': { 
                 nombre: 'Meios de Transporte', 
-                mazos: generarMazosEspecificos('sub3_1') 
+                mazos: {
+                    'mazo1': { nombre: 'Mazo 1', palavras: generarPalabrasTransporte(1) },
+                    'mazo2': { nombre: 'Mazo 2', palavras: generarPalabrasTransporte(2) },
+                    'mazo3': { nombre: 'Mazo 3', palavras: generarPalabrasTransporte(3) },
+                    'mazo4': { nombre: 'Mazo 4', palavras: generarPalabrasTransporte(4) },
+                    'mazo5': { nombre: 'Mazo 5', palavras: generarPalabrasTransporte(5) }
+                }
             },
             'sub3_2': { 
                 nombre: 'Direções', 
-                mazos: generarMazosEspecificos('sub3_2') 
+                mazos: {
+                    'mazo1': { nombre: 'Mazo 1', palavras: generarPalabrasDirecciones(1) },
+                    'mazo2': { nombre: 'Mazo 2', palavras: generarPalabrasDirecciones(2) },
+                    'mazo3': { nombre: 'Mazo 3', palavras: generarPalabrasDirecciones(3) },
+                    'mazo4': { nombre: 'Mazo 4', palavras: generarPalabrasDirecciones(4) },
+                    'mazo5': { nombre: 'Mazo 5', palavras: generarPalabrasDirecciones(5) }
+                }
             },
             'sub3_3': { 
                 nombre: 'Hotelaria', 
-                mazos: generarMazosEspecificos('sub3_3') 
-            }
-        }
-    },
-    'contenedor4': {
-        nombre: 'Trabalho e Negócios',
-        subcontenedores: {
-            'sub4_1': { 
-                nombre: 'Profissões', 
-                mazos: generarMazosEspecificos('sub4_1') 
-            },
-            'sub4_2': { 
-                nombre: 'Escritório', 
-                mazos: generarMazosEspecificos('sub4_2') 
-            },
-            'sub4_3': { 
-                nombre: 'Reuniões', 
-                mazos: generarMazosEspecificos('sub4_3') 
-            }
-        }
-    },
-    'contenedor5': {
-        nombre: 'Casa e Família',
-        subcontenedores: {
-            'sub5_1': { 
-                nombre: 'Família', 
-                mazos: generarMazosEspecificos('sub5_1') 
-            },
-            'sub5_2': { 
-                nombre: 'Casa', 
-                mazos: generarMazosEspecificos('sub5_2') 
-            },
-            'sub5_3': { 
-                nombre: 'Atividades Domésticas', 
-                mazos: generarMazosEspecificos('sub5_3') 
+                mazos: {
+                    'mazo1': { nombre: 'Mazo 1', palavras: generarPalabrasHotel(1) },
+                    'mazo2': { nombre: 'Mazo 2', palavras: generarPalabrasHotel(2) },
+                    'mazo3': { nombre: 'Mazo 3', palavras: generarPalabrasHotel(3) },
+                    'mazo4': { nombre: 'Mazo 4', palavras: generarPalabrasHotel(4) },
+                    'mazo5': { nombre: 'Mazo 5', palavras: generarPalabrasHotel(5) }
+                }
             }
         }
     }
 };
 
 // ============================================================================
-// BASE DE DATOS DE PALAVRAS EM PORTUGUÊS
+// BASE DE DATOS DE PALABRAS
 // ============================================================================
 
-function generarMazosEspecificos(subcontenedorId) {
-    const mazos = {};
-    
-    for (let i = 1; i <= 5; i++) {
-        const mazoId = `mazo${i}`;
-        mazos[mazoId] = {
-            nombre: `Mazo ${i}`,
-            palavras: generarPalabrasEspecificas(subcontenedorId, i)
-        };
-    }
-    
-    return mazos;
-}
-
-function generarPalabrasEspecificas(subcontenedorId, numeroMazo) {
-    const palavrasDatabase = {
-        // SAUDAÇÕES BÁSICAS
-        'sub1_1': {
-            1: [
-                { portugues: 'Bom dia', opciones: ['Buenos días', 'Buenas tardes', 'Buenas noches', 'Hola'], resposta: 0 },
-                { portugues: 'Boa tarde', opciones: ['Buenas tardes', 'Buenos días', 'Buenas noches', 'Adiós'], resposta: 0 },
-                { portugues: 'Boa noite', opciones: ['Buenas noches', 'Buenos días', 'Buenas tardes', 'Hola'], resposta: 0 },
-                { portugues: 'Olá', opciones: ['Hola', 'Adiós', 'Gracias', 'Por favor'], resposta: 0 },
-                { portugues: 'Oi', opciones: ['Hola', 'Adiós', 'Sí', 'No'], resposta: 0 },
-                { portugues: 'Tudo bem?', opciones: ['¿Todo bien?', '¿Cómo estás?', '¿Qué tal?', '¿Qué pasa?'], resposta: 0 },
-                { portugues: 'Como vai?', opciones: ['¿Cómo vas?', '¿Qué tal?', '¿Todo bien?', '¿Cómo estás?'], resposta: 0 },
-                { portugues: 'Estou bem', opciones: ['Estoy bien', 'Estoy mal', 'Estoy cansado', 'Estoy feliz'], resposta: 0 },
-                { portugues: 'Obrigado', opciones: ['Gracias', 'Por favor', 'De nada', 'Lo siento'], resposta: 0 },
-                { portugues: 'De nada', opciones: ['De nada', 'Gracias', 'Por favor', 'Perdón'], resposta: 0 }
-            ],
-            2: [
-                { portugues: 'Por favor', opciones: ['Por favor', 'Gracias', 'De nada', 'Lo siento'], resposta: 0 },
-                { portugues: 'Com licença', opciones: ['Con permiso', 'Perdón', 'Gracias', 'Por favor'], resposta: 0 },
-                { portugues: 'Desculpe', opciones: ['Disculpe', 'Perdón', 'Gracias', 'Por favor'], resposta: 0 },
-                { portugues: 'Perdão', opciones: ['Perdón', 'Gracias', 'Por favor', 'De nada'], resposta: 0 },
-                { portugues: 'Até logo', opciones: ['Hasta luego', 'Hola', 'Adiós', 'Buenos días'], resposta: 0 },
-                { portugues: 'Até amanhã', opciones: ['Hasta mañana', 'Hasta luego', 'Hola', 'Adiós'], resposta: 0 },
-                { portugues: 'Tchau', opciones: ['Chao', 'Hola', 'Gracias', 'Por favor'], resposta: 0 },
-                { portugues: 'Adeus', opciones: ['Adiós', 'Hola', 'Hasta luego', 'Buenos días'], resposta: 0 },
-                { portugues: 'Bem-vindo', opciones: ['Bienvenido', 'Adiós', 'Gracias', 'Por favor'], resposta: 0 },
-                { portugues: 'Prazer', opciones: ['Mucho gusto', 'Gracias', 'Por favor', 'De nada'], resposta: 0 }
-            ],
-            3: [
-                { portugues: 'Como você está?', opciones: ['¿Cómo estás?', '¿Qué tal?', '¿Todo bien?', '¿Qué pasa?'], resposta: 0 },
-                { portugues: 'Qual é o seu nome?', opciones: ['¿Cuál es tu nombre?', '¿Cómo estás?', '¿De dónde eres?', '¿Qué hora es?'], resposta: 0 },
-                { portugues: 'Meu nome é...', opciones: ['Mi nombre es...', 'Yo soy...', 'Me llamo...', 'Tengo...'], resposta: 0 },
-                { portugues: 'Prazer em conhecê-lo', opciones: ['Encantado de conocerte', 'Mucho gusto', 'Hola', 'Adiós'], resposta: 0 },
-                { portugues: 'De onde você é?', opciones: ['¿De dónde eres?', '¿Cómo estás?', '¿Qué tal?', '¿Cuántos años tienes?'], resposta: 0 },
-                { portugues: 'Eu sou de...', opciones: ['Yo soy de...', 'Yo tengo...', 'Yo quiero...', 'Yo voy...'], resposta: 0 },
-                { portugues: 'Quantos anos você tem?', opciones: ['¿Cuántos años tienes?', '¿Cómo estás?', '¿De dónde eres?', '¿Qué hora es?'], resposta: 0 },
-                { portugues: 'Eu tenho ... anos', opciones: ['Yo tengo ... años', 'Yo soy ... años', 'Yo tengo ... hermanos', 'Yo quiero ... años'], resposta: 0 },
-                { portugues: 'O que você faz?', opciones: ['¿Qué haces?', '¿Qué quieres?', '¿Qué tienes?', '¿Qué necesitas?'], resposta: 0 },
-                { portugues: 'Eu sou estudante', opciones: ['Yo soy estudiante', 'Yo soy profesor', 'Yo soy médico', 'Yo soy ingeniero'], resposta: 0 }
-            ]
-        },
-        'sub1_2': {
-            1: [
-                { portugues: 'Prazer em conhecê-lo', opciones: ['Encantado de conocerte', 'Mucho gusto', 'Hola', 'Adiós'], resposta: 0 },
-                { portugues: 'Muito prazer', opciones: ['Mucho gusto', 'Encantado', 'Hola', 'Adiós'], resposta: 0 },
-                { portugues: 'Este é o meu amigo', opciones: ['Este es mi amigo', 'Este es mi hermano', 'Este es mi padre', 'Este es mi jefe'], resposta: 0 },
-                { portugues: 'Gostaria de apresentar...', opciones: ['Me gustaría presentar...', 'Quiero presentar...', 'Este es...', 'Te presento...'], resposta: 0 },
-                { portugues: 'Como se chama?', opciones: ['¿Cómo te llamas?', '¿Cómo estás?', '¿De dónde eres?', '¿Qué hora es?'], resposta: 0 },
-                { portugues: 'Me chamo...', opciones: ['Me llamo...', 'Yo soy...', 'Mi nombre es...', 'Tengo...'], resposta: 0 },
-                { portugues: 'É um prazer', opciones: ['Es un placer', 'Mucho gusto', 'Encantado', 'Hola'], resposta: 0 },
-                { portugues: 'Igualmente', opciones: ['Igualmente', 'También', 'Adiós', 'Hola'], resposta: 0 },
-                { portugues: 'Permita-me apresentar-me', opciones: ['Permítame presentarme', 'Me presento', 'Soy...', 'Hola'], resposta: 0 },
-                { portugues: 'Sou...', opciones: ['Soy...', 'Tengo...', 'Quiero...', 'Voy...'], resposta: 0 }
-            ]
-        },
-        'sub1_3': {
-            1: [
-                { portugues: 'Tchau', opciones: ['Chao', 'Hola', 'Gracias', 'Por favor'], resposta: 0 },
-                { portugues: 'Até logo', opciones: ['Hasta luego', 'Hola', 'Adiós', 'Buenos días'], resposta: 0 },
-                { portugues: 'Até amanhã', opciones: ['Hasta mañana', 'Hasta luego', 'Hola', 'Adiós'], resposta: 0 },
-                { portugues: 'Até breve', opciones: ['Hasta pronto', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 },
-                { portugues: 'Até mais tarde', opciones: ['Hasta más tarde', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 },
-                { portugues: 'Nos vemos', opciones: ['Nos vemos', 'Hola', 'Adiós', 'Gracias'], resposta: 0 },
-                { portugues: 'Cuide-se', opciones: ['Cuídate', 'Adiós', 'Hola', 'Gracias'], resposta: 0 },
-                { portugues: 'Tenha um bom dia', opciones: ['Que tengas un buen día', 'Buenos días', 'Buenas tardes', 'Buenas noches'], resposta: 0 },
-                { portugues: 'Boa noite', opciones: ['Buenas noches', 'Buenos días', 'Buenas tardes', 'Hola'], resposta: 0 },
-                { portugues: 'Adeus', opciones: ['Adiós', 'Hola', 'Hasta luego', 'Buenos días'], resposta: 0 }
-            ]
-        }
-    };
-
-    if (palavrasDatabase[subcontenedorId] && palavrasDatabase[subcontenedorId][numeroMazo]) {
-        return palavrasDatabase[subcontenedorId][numeroMazo];
-    } else {
-        return generarPalabras(10);
-    }
-}
-
-function generarPalabras(cantidad) {
-    const palavras = [];
-    const palavrasBase = [
-        { portugues: 'Casa', opciones: ['Casa', 'Apartamento', 'Edificio', 'Escuela'], resposta: 0 },
-        { portugues: 'Carro', opciones: ['Coche', 'Moto', 'Bicicleta', 'Autobús'], resposta: 0 },
-        { portugues: 'Livro', opciones: ['Libro', 'Revista', 'Periódico', 'Cuaderno'], resposta: 0 },
-        { portugues: 'Água', opciones: ['Agua', 'Jugo', 'Refresco', 'Café'], resposta: 0 },
-        { portugues: 'Comida', opciones: ['Comida', 'Bebida', 'Postre', 'Aperitivo'], resposta: 0 },
-        { portugues: 'Tempo', opciones: ['Tiempo', 'Espacio', 'Lugar', 'Momento'], resposta: 0 },
-        { portugues: 'Amigo', opciones: ['Amigo', 'Enemigo', 'Conocido', 'Vecino'], resposta: 0 },
-        { portugues: 'Família', opciones: ['Familia', 'Amigos', 'Compañeros', 'Vecinos'], resposta: 0 },
-        { portugues: 'Trabalho', opciones: ['Trabajo', 'Estudio', 'Descanso', 'Juego'], resposta: 0 },
-        { portugues: 'Escola', opciones: ['Escuela', 'Casa', 'Trabajo', 'Parque'], resposta: 0 }
+function generarPalabrasBasicas(nivel) {
+    const palabras = [
+        { portugues: 'Bom dia', opciones: ['Buenos días', 'Buenas tardes', 'Buenas noches', 'Hola'], resposta: 0 },
+        { portugues: 'Boa tarde', opciones: ['Buenas tardes', 'Buenos días', 'Buenas noches', 'Adiós'], resposta: 0 },
+        { portugues: 'Boa noite', opciones: ['Buenas noches', 'Buenos días', 'Buenas tardes', 'Hola'], resposta: 0 },
+        { portugues: 'Olá', opciones: ['Hola', 'Adiós', 'Gracias', 'Por favor'], resposta: 0 },
+        { portugues: 'Oi', opciones: ['Hola', 'Adiós', 'Sí', 'No'], resposta: 0 },
+        { portugues: 'Tudo bem?', opciones: ['¿Todo bien?', '¿Cómo estás?', '¿Qué tal?', '¿Qué pasa?'], resposta: 0 },
+        { portugues: 'Como vai?', opciones: ['¿Cómo vas?', '¿Qué tal?', '¿Todo bien?', '¿Cómo estás?'], resposta: 0 },
+        { portugues: 'Estou bem', opciones: ['Estoy bien', 'Estoy mal', 'Estoy cansado', 'Estoy feliz'], resposta: 0 },
+        { portugues: 'Obrigado', opciones: ['Gracias', 'Por favor', 'De nada', 'Lo siento'], resposta: 0 },
+        { portugues: 'De nada', opciones: ['De nada', 'Gracias', 'Por favor', 'Perdón'], resposta: 0 }
     ];
-    
-    for (let i = 0; i < quantidade; i++) {
-        palavras.push({...palavrasBase[i % palavrasBase.length]});
-    }
-    return palavras;
+    return palabras.slice(0, 10);
+}
+
+function generarPalabrasPresentaciones(nivel) {
+    const palabras = [
+        { portugues: 'Prazer em conhecê-lo', opciones: ['Encantado de conocerte', 'Mucho gusto', 'Hola', 'Adiós'], resposta: 0 },
+        { portugues: 'Muito prazer', opciones: ['Mucho gusto', 'Encantado', 'Hola', 'Adiós'], resposta: 0 },
+        { portugues: 'Como se chama?', opciones: ['¿Cómo te llamas?', '¿Cómo estás?', '¿De dónde eres?', '¿Qué hora es?'], resposta: 0 },
+        { portugues: 'Me chamo...', opciones: ['Me llamo...', 'Yo soy...', 'Mi nombre es...', 'Tengo...'], resposta: 0 },
+        { portugues: 'De onde você é?', opciones: ['¿De dónde eres?', '¿Cómo estás?', '¿Qué tal?', '¿Cuántos años tienes?'], resposta: 0 },
+        { portugues: 'Eu sou do Brasil', opciones: ['Soy de Brasil', 'Soy de México', 'Soy de España', 'Soy de Argentina'], resposta: 0 },
+        { portugues: 'O que você faz?', opciones: ['¿Qué haces?', '¿Qué quieres?', '¿Qué tienes?', '¿Qué necesitas?'], resposta: 0 },
+        { portugues: 'Eu sou estudante', opciones: ['Soy estudiante', 'Soy profesor', 'Soy médico', 'Soy ingeniero'], resposta: 0 },
+        { portugues: 'Quantos anos você tem?', opciones: ['¿Cuántos años tienes?', '¿Cómo estás?', '¿De dónde eres?', '¿Qué hora es?'], resposta: 0 },
+        { portugues: 'Eu tenho 25 anos', opciones: ['Tengo 25 años', 'Soy 25 años', 'Tengo 25 hermanos', 'Quiero 25 años'], resposta: 0 }
+    ];
+    return palabras.slice(0, 10);
+}
+
+function generarPalabrasDespedidas(nivel) {
+    const palabras = [
+        { portugues: 'Tchau', opciones: ['Chao', 'Hola', 'Gracias', 'Por favor'], resposta: 0 },
+        { portugues: 'Até logo', opciones: ['Hasta luego', 'Hola', 'Adiós', 'Buenos días'], resposta: 0 },
+        { portugues: 'Até amanhã', opciones: ['Hasta mañana', 'Hasta luego', 'Hola', 'Adiós'], resposta: 0 },
+        { portugues: 'Até breve', opciones: ['Hasta pronto', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 },
+        { portugues: 'Nos vemos', opciones: ['Nos vemos', 'Hola', 'Adiós', 'Gracias'], resposta: 0 },
+        { portugues: 'Cuide-se', opciones: ['Cuídate', 'Adiós', 'Hola', 'Gracias'], resposta: 0 },
+        { portugues: 'Tenha um bom dia', opciones: ['Que tengas un buen día', 'Buenos días', 'Buenas tardes', 'Buenas noches'], resposta: 0 },
+        { portugues: 'Boa noite', opciones: ['Buenas noches', 'Buenos días', 'Buenas tardes', 'Hola'], resposta: 0 },
+        { portugues: 'Adeus', opciones: ['Adiós', 'Hola', 'Hasta luego', 'Buenos días'], resposta: 0 },
+        { portugues: 'Até mais tarde', opciones: ['Hasta más tarde', 'Hasta luego', 'Adiós', 'Hola'], resposta: 0 }
+    ];
+    return palabras.slice(0, 10);
+}
+
+function generarPalabrasComida(nivel) {
+    const palabras = [
+        { portugues: 'Arroz', opciones: ['Arroz', 'Frijoles', 'Pan', 'Pasta'], resposta: 0 },
+        { portugues: 'Feijão', opciones: ['Frijoles', 'Arroz', 'Carne', 'Pescado'], resposta: 0 },
+        { portugues: 'Carne', opciones: ['Carne', 'Pescado', 'Pollo', 'Verdura'], resposta: 0 },
+        { portugues: 'Frango', opciones: ['Pollo', 'Carne', 'Pescado', 'Cerdo'], resposta: 0 },
+        { portugues: 'Peixe', opciones: ['Pescado', 'Carne', 'Pollo', 'Marisco'], resposta: 0 },
+        { portugues: 'Salada', opciones: ['Ensalada', 'Sopa', 'Postre', 'Bebida'], resposta: 0 },
+        { portugues: 'Sopa', opciones: ['Sopa', 'Ensalada', 'Postre', 'Bebida'], resposta: 0 },
+        { portugues: 'Pão', opciones: ['Pan', 'Queso', 'Mantequilla', 'Jamón'], resposta: 0 },
+        { portugues: 'Queijo', opciones: ['Queso', 'Pan', 'Leche', 'Yogur'], resposta: 0 },
+        { portugues: 'Ovo', opciones: ['Huevo', 'Leche', 'Pan', 'Queso'], resposta: 0 }
+    ];
+    return palabras.slice(0, 10);
+}
+
+function generarPalabrasBebidas(nivel) {
+    const palabras = [
+        { portugues: 'Água', opciones: ['Agua', 'Jugo', 'Refresco', 'Café'], resposta: 0 },
+        { portugues: 'Suco', opciones: ['Jugo', 'Agua', 'Refresco', 'Café'], resposta: 0 },
+        { portugues: 'Café', opciones: ['Café', 'Té', 'Chocolate', 'Leche'], resposta: 0 },
+        { portugues: 'Chá', opciones: ['Té', 'Café', 'Chocolate', 'Leche'], resposta: 0 },
+        { portugues: 'Leite', opciones: ['Leche', 'Agua', 'Jugo', 'Café'], resposta: 0 },
+        { portugues: 'Cerveja', opciones: ['Cerveza', 'Vino', 'Agua', 'Refresco'], resposta: 0 },
+        { portugues: 'Vinho', opciones: ['Vino', 'Cerveza', 'Agua', 'Refresco'], resposta: 0 },
+        { portugues: 'Refrigerante', opciones: ['Refresco', 'Agua', 'Jugo', 'Café'], resposta: 0 },
+        { portugues: 'Água com gás', opciones: ['Agua con gas', 'Agua sin gas', 'Refresco', 'Jugo'], resposta: 0 },
+        { portugues: 'Café com leite', opciones: ['Café con leche', 'Café solo', 'Té', 'Chocolate'], resposta: 0 }
+    ];
+    return palabras.slice(0, 10);
+}
+
+function generarPalabrasSobremesas(nivel) {
+    const palabras = [
+        { portugues: 'Bolo', opciones: ['Pastel', 'Galleta', 'Helado', 'Flan'], resposta: 0 },
+        { portugues: 'Sorvete', opciones: ['Helado', 'Pastel', 'Galleta', 'Flan'], resposta: 0 },
+        { portugues: 'Chocolate', opciones: ['Chocolate', 'Vainilla', 'Fresa', 'Caramelo'], resposta: 0 },
+        { portugues: 'Pudim', opciones: ['Flan', 'Pastel', 'Helado', 'Galleta'], resposta: 0 },
+        { portugues: 'Fruta', opciones: ['Fruta', 'Verdura', 'Carne', 'Pescado'], resposta: 0 },
+        { portugues: 'Biscoito', opciones: ['Galleta', 'Pastel', 'Pan', 'Queso'], resposta: 0 },
+        { portugues: 'Torta', opciones: ['Tarta', 'Pastel', 'Galleta', 'Flan'], resposta: 0 },
+        { portugues: 'Doce', opciones: ['Dulce', 'Salado', 'Amargo', 'Ácido'], resposta: 0 },
+        { portugues: 'Gelatina', opciones: ['Gelatina', 'Flan', 'Helado', 'Pastel'], resposta: 0 },
+        { portugues: 'Mousse', opciones: ['Mousse', 'Flan', 'Helado', 'Pastel'], resposta: 0 }
+    ];
+    return palabras.slice(0, 10);
+}
+
+function generarPalabrasTransporte(nivel) {
+    const palabras = [
+        { portugues: 'Carro', opciones: ['Coche', 'Autobús', 'Tren', 'Avión'], resposta: 0 },
+        { portugues: 'Ônibus', opciones: ['Autobús', 'Coche', 'Tren', 'Avión'], resposta: 0 },
+        { portugues: 'Trem', opciones: ['Tren', 'Autobús', 'Coche', 'Avión'], resposta: 0 },
+        { portugues: 'Avião', opciones: ['Avión', 'Coche', 'Autobús', 'Tren'], resposta: 0 },
+        { portugues: 'Metrô', opciones: ['Metro', 'Autobús', 'Tren', 'Coche'], resposta: 0 },
+        { portugues: 'Bicicleta', opciones: ['Bicicleta', 'Moto', 'Coche', 'Autobús'], resposta: 0 },
+        { portugues: 'Moto', opciones: ['Moto', 'Bicicleta', 'Coche', 'Autobús'], resposta: 0 },
+        { portugues: 'Barco', opciones: ['Barco', 'Avión', 'Coche', 'Tren'], resposta: 0 },
+        { portugues: 'Taxi', opciones: ['Taxi', 'Autobús', 'Coche', 'Tren'], resposta: 0 },
+        { portugues: 'Caminhão', opciones: ['Camión', 'Coche', 'Autobús', 'Tren'], resposta: 0 }
+    ];
+    return palabras.slice(0, 10);
+}
+
+function generarPalabrasDirecciones(nivel) {
+    const palabras = [
+        { portugues: 'Direita', opciones: ['Derecha', 'Izquierda', 'Recto', 'Atrás'], resposta: 0 },
+        { portugues: 'Esquerda', opciones: ['Izquierda', 'Derecha', 'Recto', 'Atrás'], resposta: 0 },
+        { portugues: 'Reto', opciones: ['Recto', 'Derecha', 'Izquierda', 'Atrás'], resposta: 0 },
+        { portugues: 'Atrás', opciones: ['Atrás', 'Delante', 'Derecha', 'Izquierda'], resposta: 0 },
+        { portugues: 'Em frente', opciones: ['Enfrente', 'Atrás', 'Derecha', 'Izquierda'], resposta: 0 },
+        { portugues: 'Ao lado', opciones: ['Al lado', 'Enfrente', 'Atrás', 'Derecha'], resposta: 0 },
+        { portugues: 'Longe', opciones: ['Lejos', 'Cerca', 'Aquí', 'Allí'], resposta: 0 },
+        { portugues: 'Perto', opciones: ['Cerca', 'Lejos', 'Aquí', 'Allí'], resposta: 0 },
+        { portugues: 'Aqui', opciones: ['Aquí', 'Allí', 'Lejos', 'Cerca'], resposta: 0 },
+        { portugues: 'Ali', opciones: ['Allí', 'Aquí', 'Lejos', 'Cerca'], resposta: 0 }
+    ];
+    return palabras.slice(0, 10);
+}
+
+function generarPalabrasHotel(nivel) {
+    const palabras = [
+        { portugues: 'Hotel', opciones: ['Hotel', 'Casa', 'Apartamento', 'Escuela'], resposta: 0 },
+        { portugues: 'Quarto', opciones: ['Habitación', 'Baño', 'Cocina', 'Sala'], resposta: 0 },
+        { portugues: 'Cama', opciones: ['Cama', 'Mesa', 'Silla', 'Armario'], resposta: 0 },
+        { portugues: 'Banheiro', opciones: ['Baño', 'Habitación', 'Cocina', 'Sala'], resposta: 0 },
+        { portugues: 'Recepção', opciones: ['Recepción', 'Habitación', 'Baño', 'Cocina'], resposta: 0 },
+        { portugues: 'Chave', opciones: ['Llave', 'Puerta', 'Ventana', 'Cama'], resposta: 0 },
+        { portugues: 'Reserva', opciones: ['Reserva', 'Cancelación', 'Llegada', 'Salida'], resposta: 0 },
+        { portugues: 'Check-in', opciones: ['Check-in', 'Check-out', 'Reserva', 'Cancelación'], resposta: 0 },
+        { portugues: 'Check-out', opciones: ['Check-out', 'Check-in', 'Reserva', 'Cancelación'], resposta: 0 },
+        { portugues: 'Café da manhã', opciones: ['Desayuno', 'Almuerzo', 'Cena', 'Merienda'], resposta: 0 }
+    ];
+    return palabras.slice(0, 10);
 }
 
 // ============================================================================
@@ -267,18 +318,14 @@ function pronunciarPalabra() {
     
     if ('speechSynthesis' in window) {
         const utterance = new SpeechSynthesisUtterance(palabra);
-        utterance.lang = 'pt-BR'; // Portugués de Brasil
-        utterance.rate = 0.8; // Velocidad moderada
+        utterance.lang = 'pt-BR';
+        utterance.rate = 0.8;
         utterance.pitch = 1;
         utterance.volume = 1;
         
-        // Detener cualquier pronunciación anterior
         speechSynthesis.cancel();
-        
-        // Pronunciar la palabra
         speechSynthesis.speak(utterance);
         
-        // Cambiar temporalmente el botón para mostrar que está funcionando
         const boton = document.getElementById('boton-pronunciacion');
         const textoOriginal = boton.textContent;
         boton.textContent = '🔊 Pronunciando...';
@@ -306,6 +353,8 @@ function obtenerUrlImagen(tipo, id) {
 }
 
 function cargarContenedor(idContenedor) {
+    console.log('Cargando contenedor:', idContenedor);
+    
     if (estructura[idContenedor]) {
         contenedorActual = idContenedor;
         const contenedor = estrutura[idContenedor];
@@ -332,12 +381,17 @@ function cargarContenedor(idContenedor) {
         });
         
         cambiarPantalla('pantalla-subcontenedores');
+    } else {
+        console.error('Contenedor no encontrado:', idContenedor);
     }
 }
 
 function cargarSubcontenedor(idSubcontenedor) {
+    console.log('Cargando subcontenedor:', idSubcontenedor);
+    
     const contenedor = estrutura[contenedorActual];
     const subcontenedor = contenedor.subcontenedores[idSubcontenedor];
+    
     if (subcontenedor) {
         subcontenedorActual = idSubcontenedor;
         
@@ -363,12 +417,17 @@ function cargarSubcontenedor(idSubcontenedor) {
         });
         
         cambiarPantalla('pantalla-mazos');
+    } else {
+        console.error('Subcontenedor no encontrado:', idSubcontenedor);
     }
 }
 
 function cargarMazo(idMazo) {
+    console.log('Cargando mazo:', idMazo);
+    
     const contenedor = estrutura[contenedorActual];
     const subcontenedor = contenedor.subcontenedores[subcontenedorActual];
+    
     if (subcontenedor && subcontenedor.mazos[idMazo]) {
         mazoActual = [...subcontenedor.mazos[idMazo].palavras];
         preguntaActual = 0;
@@ -378,6 +437,8 @@ function cargarMazo(idMazo) {
         mezclarPreguntas();
         cambiarPantalla('pantalla-quiz');
         mostrarPregunta();
+    } else {
+        console.error('Mazo no encontrado:', idMazo);
     }
 }
 
@@ -399,7 +460,6 @@ function mostrarPregunta() {
         document.getElementById('resultado').className = 'resultado';
         document.getElementById('boton-siguiente').style.display = 'none';
         
-        // Configurar el botón de pronunciación
         const botonPronunciacion = document.getElementById('boton-pronunciacion');
         botonPronunciacion.onclick = pronunciarPalabra;
         botonPronunciacion.disabled = false;
@@ -434,7 +494,6 @@ function verificarRespuesta(respuestaSeleccionada, respostaCorrecta) {
         opcion.disabled = true;
     });
     
-    // Deshabilitar el botón de pronunciación durante la verificación
     document.getElementById('boton-pronunciacion').disabled = true;
     
     opciones.forEach(opcion => {
