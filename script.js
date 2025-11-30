@@ -93,7 +93,7 @@ const datosApp = {
                 id: 6,
                 nombre: "Desafíos y Rivalidades",
                 imagen: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=center",
-                palavras: [
+                palabras: [
                     { portugues: "Certifique", espanol: "Asegúrate", pronunciacion: "Certifique" },
                     { portugues: "Desafio", espanol: "Desafío", pronunciacion: "Desafio" },
                     { portugues: "Esmagar", espanol: "Aplastar", pronunciacion: "Esmagar" },
@@ -109,8 +109,8 @@ const datosApp = {
             {
                 id: 7,
                 nombre: "Animales del Circo",
-                imagem: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=150&h=150&fit=crop&crop=center",
-                palavras: [
+                imagen: "https://images.unsplash.com/photo-1558618047-3c76ca7d13?w=150&h=150&fit=crop&crop=center",
+                palabras: [
                     { portugues: "Animais", espanol: "Animales", pronunciacion: "Animais" },
                     { portugues: "Circo", espanol: "Circo", pronunciacion: "Circo" },
                     { portugues: "Herói", espanol: "Héroe", pronunciacion: "Herói" },
@@ -125,9 +125,9 @@ const datosApp = {
             },
             {
                 id: 8,
-                nome: "Competencia Intensa",
-                imagem: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=150&h=150&fit=crop&crop=center",
-                palavras: [
+                nombre: "Competencia Intensa",
+                imagen: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=150&h=150&fit=crop&crop=center",
+                palabras: [
                     { portugues: "Intensos", espanol: "Intensos", pronunciacion: "Intensos" },
                     { portugues: "Conquistar", espanol: "Conquistar", pronunciacion: "Conquistar" },
                     { portugues: "Vaga", espanol: "Vacante", pronunciacion: "Vaga" },
@@ -142,9 +142,9 @@ const datosApp = {
             },
             {
                 id: 9,
-                nome: "Juego y Egoísmo",
-                imagem: "https://images.unsplash.com/photo-1486286701208-1d58e9338013?w=150&h=150&fit=crop&crop=center",
-                palavras: [
+                nombre: "Juego y Egoísmo",
+                imagen: "https://images.unsplash.com/photo-1486286701208-1d58e9338013?w=150&h=150&fit=crop&crop=center",
+                palabras: [
                     { portugues: "Que", espanol: "Que", pronunciacion: "Que" },
                     { portugues: "Comece", espanol: "Comience", pronunciacion: "Comece" },
                     { portugues: "Jogo", espanol: "Juego", pronunciacion: "Jogo" },
@@ -159,10 +159,10 @@ const datosApp = {
             },
             {
                 id: 10,
-                nome: "Kunigami y Lavinho",
-                imagem: "https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?w=150&h=150&fit=crop&crop=center",
-                palavras: [
-                    portugues: "Titular", espanol: "Titular", pronunciacion: "Titular" },
+                nombre: "Kunigami y Lavinho",
+                imagen: "https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?w=150&h=150&fit=crop&crop=center",
+                palabras: [
+                    { portugues: "Titular", espanol: "Titular", pronunciacion: "Titular" },
                     { portugues: "Venci", espanol: "Vencí", pronunciacion: "Venci" },
                     { portugues: "Merda", espanol: "Mierda", pronunciacion: "Merda" },
                     { portugues: "Gênio", espanol: "Genio", pronunciacion: "Gênio" },
